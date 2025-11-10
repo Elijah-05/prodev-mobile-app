@@ -38,17 +38,9 @@ export default function SignIn() {
         </TouchableOpacity>
 
         <View style={styles.dividerGroup}>
-          <View
-            style={styles.divider}
-          ></View>
-          <Text
-            style={styles.dividerText}
-          >
-            OR
-          </Text>
-          <View
-            style={styles.divider}
-          ></View>
+          <View style={styles.divider}></View>
+          <Text style={styles.dividerText}>OR</Text>
+          <View style={styles.divider}></View>
         </View>
 
         <View style={styles.socialMediaButtonGroup}>

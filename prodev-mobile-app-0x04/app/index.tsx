@@ -60,7 +60,7 @@ export default function Index() {
                 <Text style={{ color: "white" }}>Continue to home</Text>
                 <Image
                   style={{ width: 20, height: 10, objectFit: "contain" }}
-                  source={require("@/assets/images/splash.png")}
+                  source={require("@/assets/images/arrow.png")}
                 />
               </View>
             </View>

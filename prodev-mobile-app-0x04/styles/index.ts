@@ -6,6 +6,7 @@ const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: "#fff",
     position: "relative",
+    
   },
   navGroup: {
     flexDirection: "row",
@@ -95,11 +96,11 @@ const styles = StyleSheet.create({
     color: "#C2C2C2",
   },
   subTextGroup: {
+    marginTop: 20,
+    marginHorizontal: 8,
     flexDirection: "row",
-    position: "absolute",
-    bottom: 33,
-    left: 77,
-    right: 76,
+    justifyContent: "center",
+    gap: 5,
   },
   subText: {
     fontSize: 18,
