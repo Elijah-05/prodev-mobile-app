@@ -1,5 +1,5 @@
 import { FACEBOOKLOGO, GOOGLELOGO, HEROLOGOGREEN } from "@/constants";
-import { styles } from "@/styles";
+import { styles } from "@/styles/_join";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
 import { Image, ScrollView, Text, TextInput, TouchableOpacity, View } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
