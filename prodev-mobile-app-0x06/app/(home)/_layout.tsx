@@ -12,7 +12,7 @@ const HomeRootLayout = () => {
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: "#34967C",
-        headerShown: false,
+        headerShown: true,
       }}
     >
       <Tabs.Screen
@@ -58,7 +58,6 @@ const HomeRootLayout = () => {
         name="profile"
         options={{
           title: "Profile",
-          headerShown: false,
           tabBarIcon: ({ color }) => (
             <FontAwesome name="user-o" size={24} color="black" />
           ),
