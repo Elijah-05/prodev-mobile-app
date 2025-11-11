@@ -1,7 +1,7 @@
 import { Text, TextInput, View, TouchableOpacity, Image } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
-import { FACEBOOKLOGO, GOOGLELOGO, HEROLOGO } from "@/constants";
+import { FACEBOOKLOGO, GOOGLELOGO, HEROLOGO } from "@/constants/data";
 import { styles } from "@/styles/_join";
 
 export default function SignIn() {

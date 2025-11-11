@@ -1,4 +1,4 @@
-import { BACKGROUNDIMAGE, HEROLOGO } from "@/constants";
+import { BACKGROUNDIMAGE, HEROLOGO } from "@/constants/data";
 import {
   ImageBackground,
   StyleSheet,
